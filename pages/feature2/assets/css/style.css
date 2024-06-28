@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333; 
+}
+
+.header {
+    background-color: #222; 
+    padding: 10px 0;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header ul li {
+    margin: 0 15px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header ul li a:hover {
+    color: #ddd; 
+}
+
+.hero {
+    height: 100vh;
+    background-color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: #31363F;
+    color: #333; 
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #222831;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    width: 1020px;
+    height: 910px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.feature-text {
+    display: flex;
+    height: 88%;
+    align-items: flex-start;
+}
+
+.feature-item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #76ABAE;
+}
+
+.feature-item p {
+    font-size: 25px;
+    color: #EEEEEE;
+    line-height: 30px;
+}
+
+.one {
+    background-image: url('https://www.sennheiser-hearing.com/_next/image/?url=https%3A%2F%2Fmedia.graphassets.com%2FDXc3bJGXQvWsHaOfvtom&w=1920&q=75');
+}
+
+.two {
+    background-image: url('https://www.sennheiser-hearing.com/_next/image/?url=https%3A%2F%2Fmedia.graphassets.com%2FPoI9eklCQPK84TZx9fVc&w=1920&q=75');
+}
+
+.three {
+    background-image: url('https://www.sennheiser-hearing.com/_next/image/?url=https%3A%2F%2Fmedia.graphassets.com%2FwdfRNml0TrLBzSpPySWO&w=1920&q=75');
+}
