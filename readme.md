@@ -67,7 +67,7 @@ This project is a collection of feature designs, with the landing page inspired 
 - MultiPage Website
 
 ## Deployment link
-https://jeneggs.github.io/WD-Berris-SW3/
+https://jeneggs.github.io/WD-Berris-SW4/
 
 ### Technology
 <!-- TODO: List of Technology Used -->
